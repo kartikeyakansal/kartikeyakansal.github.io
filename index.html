@@ -1,0 +1,1617 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Kartikeya Kansal" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Kartikeya Kansal">Kartikeya Kansal</h1>
+
+          <p class="title">Software Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kartikeya9a@gmail.com" class="contact-link">kartikeya9a@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+16023017742" class="contact-link">+1 (602) 301-7742</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-05-24">May 24, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tempe, Arizona, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li> -->
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/kartikeyakansal/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.github.com/kartikeyakansal/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Kartikeya Kansal, a dedicated software engineer and researcher based in Tempe, AZ, USA. With a rich background in Neural Networks, Natural Language Processing, and Deep Learning, I am committed to solving complex problems and building innovative solutions that drive progress in various domains. I enjoy leveraging my technical skills and creativity to develop robust and efficient systems.
+
+          </p>
+
+          <p>
+            My mission is to build software that is not only functional and efficient but also user-friendly and visually appealing. I strive to add a personal touch to every project, ensuring that the end product is intuitive and meets the highest standards of quality. My work spans across healthcare, mobile applications, web development, and much more.
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research & Development</h4>
+
+                <p class="service-item-text">
+                  Innovating with neural networks and NLP to solve healthcare and other domain-specific problems.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Developing high-quality websites with modern technologies and best practices.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile Application Development</h4>
+
+                <p class="service-item-text">
+                  Creating user-friendly mobile applications for iOS and Android platforms.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/chromebrain.png" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning Projects</h4>
+
+                <p class="service-item-text">
+                  Implementing deep learning and AI solutions for real-world applications.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <!-- <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Arizona State University, Tempe, AZ, USA</h4>
+              <h6 class="h6 timeline-item-title">Masters in Computer Science</h6>
+              <span>2023 — 2025</span>
+
+              <p class="timeline-text">
+                  GPA: 3.94/4.00 <br>
+                  Relevant Coursework: Data Mining | Software Security | Distributed & Multiprocessing Operating Systems | Multimedia and Web Databases | Combinatorial Algorithms | Data Intensive Systems for Machine Learning
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Birla Institute of Technology & Science, Pilani, Rajasthan, India</h4>
+              <h6 class="h6 timeline-item-title">Bachelors in Electrical and Electronics Engineering | Minor in Finance</h6>
+              <span>2019 — 2023</span>
+
+              <p class="timeline-text">
+                GPA: 3.30/4.00 <br>
+                Relevant Coursework: Computer Programming | Probability & Statistics | Data Structures and Algorithms | Operating Systems | Object Oriented Programming | Internet of Things  
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Arizona State University</h4>
+              <h6 class="h6 timeline-item-title">Graduate Services Research Assistant</h6>
+              <span>May 2024 — Present | Tempe, USA</span>
+
+              <p class="timeline-text">
+                
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Arizona State University</h4>
+              <h6 class="h6 timeline-item-title">Graduate Teaching Assistant, CSE 550 Foundations of Algorithms</h6>
+              <span>Jan 2024 — May 2024 | Tempe, USA</span>
+
+              <p class="timeline-text">
+                Secured a TAship position by showcasing academic excellence in algorithms and ranking among the top 0.5% of applicants. <br>
+                Managing grading responsibilities, developing assignments and exams, addressing student inquiries, and providing assistance to fellow peers.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">National University of Singapore</h4>
+              <h6 class="h6 timeline-item-title">Research Fellow</h6>
+              <span>Jan 2023 — Jun 2023 | Singapore</span>
+
+              <p class="timeline-text">
+                Built a novel consensus algorithm for a healthcare forum extending on Gossip Protocol and Virtual Voting used in DAG-based Hashgraph and for ranking and rewarding the health experts who contribute to answering patients' queries ensuring high-quality responses. <br>
+                Trained and deployed NLP models to categorize the patient's medical queries and to answer the questions accurately, achieving the Exact Match score of 82% and BLEU score of 47. <br>
+                Utilized OCEAN protocol to create a data marketplace, making healthcare data easily accessible while empowering data owners with control and authority over their information.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Hilti Group</h4>
+              <h6 class="h6 timeline-item-title">Software Engineer Intern</h6>
+              <span>May 2022 — Jul 2022 | Remote, USA</span>
+
+              <p class="timeline-text">
+                Built and integrated OAuth v2 for authentication and authorization into a one-stop solution mobile application developed with Xamarin, strengthening its security and reducing average login time by 22%. <br>
+                Optimized performance by 18% by deploying download functionality and enabling offline accessibility, leveraging strategic data caching and retrieval mechanisms using Monkey Cache. <br>
+                Initiated a seamless transition by handling the partial migration of the mobile application from Xamarin to the MAUI framework enhancing the app's technical capabilities.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Birla Institute of Technology & Science</h4>
+              <h6 class="h6 timeline-item-title">Teaching Assistant, EEE F241 Microprocessor Programming & Interfacing</h6>
+              <span>Jan 2022 — May 2022 | Pilani, India</span>
+
+              <p class="timeline-text">
+                Assisted the lab instructor in guiding students through practical exercises, troubleshooting technical issues, and clarifying core concepts. <br>
+Collaborated with the faculty to design and prepare examination questions that accurately assessed students' comprehension of the course. <br>
+Played a key role in evaluating students' assignments and lab work, providing feedback, and assessing their understanding of the concepts.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Shalaka Connected Devices LLP</h4>
+              <h6 class="h6 timeline-item-title">Software Engineer Intern</h6>
+              <span>May 2021 — Jul 2021 | Pune, India</span>
+
+              <p class="timeline-text">
+                Led a team of 3 members to develop a robust web application from inception, designed to showcase Inertial Measurement Unit results using React and Django frameworks. <br>
+                Revamped user experience by implementing login functionality and tailoring content for Staff Members according to their distinct roles. <br>
+                Pioneered the integration of a critical alert system on the IMU data, allowing users to set and manage alerts as per the threshold values which reduced code reds by 32%.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="telescope-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Research</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Secure Cognitive Health
+                Monitoring using a Directed Acyclic Graph-based and AI-enhanced IoMT
+                Framework</h4>
+              <h6 class="h6 timeline-item-title">Elsevier DCN (Under Review)</h6>
+              <span>2023</span>
+<!-- 
+              <p class="timeline-text">
+                  GPA: 3.94/4.00 <br>
+                  Relevant Coursework: Data Mining | Software Security | Distributed & Multiprocessing Operating Systems | Multimedia and Web Databases | Combinatorial Algorithms | Data Intensive Systems for Machine Learning
+              </p> -->
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">A Directed Acyclic Graph-based
+                and AI-enhanced IoMT Framework for Secure and Scalable Remote Patient
+                Monitoring</h4>
+              <h6 class="h6 timeline-item-title">IEEE TMLCN (Under Review)</h6>
+              <span>2023</span>
+<!-- 
+              <p class="timeline-text">
+                  GPA: 3.94/4.00 <br>
+                  Relevant Coursework: Data Mining | Software Security | Distributed & Multiprocessing Operating Systems | Multimedia and Web Databases | Combinatorial Algorithms | Data Intensive Systems for Machine Learning
+              </p> -->
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Generalized Identifying Codes for Sensor Networks
+                with Application to Parking Lot Monitoring</h4>
+              <h6 class="h6 timeline-item-title">IEEE Globecom (Under Review)</h6>
+              <span>2024</span>
+<!-- 
+              <p class="timeline-text">
+                  GPA: 3.94/4.00 <br>
+                  Relevant Coursework: Data Mining | Software Security | Distributed & Multiprocessing Operating Systems | Multimedia and Web Databases | Combinatorial Algorithms | Data Intensive Systems for Machine Learning
+              </p> -->
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="skill">
+          <h3 class="h3 skills-title">My skills</h3>
+          <ul class="skills-list content-card">
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Languages</h5>
+                <!-- <data value="80">80%</data> -->
+              </div>
+              <ul class="subskills-list">
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Python</span>
+                    <data value="90">90%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 90%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Java</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">C</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">C++</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">C#</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+              </ul>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Development</h5>
+                <!-- <data value="70">70%</data> -->
+              </div>
+              <ul class="subskills-list">
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">HTML</span>
+                    <data value="80">80%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">CSS</span>
+                    <data value="75">75%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 75%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">JavaScript</span>
+                    <data value="75">75%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 75%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Flask</span>
+                    <data value="80">80%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Django</span>
+                    <data value="75">75%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 75%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">React</span>
+                    <data value="75">75%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 75%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">NodeJS</span>
+                    <data value="80">80%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Xamarin</span>
+                    <data value="75">75%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 75%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">MAUI</span>
+                    <data value="75">75%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 75%;"></div>
+                  </div>
+                </li>
+                <!-- Add more subskills as needed -->
+              </ul>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">ML Stack</h5>
+                <!-- <data value="90">90%</data> -->
+              </div>
+              <ul class="subskills-list">
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">TensorFlow</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">PyTorch</span>
+                    <data value="80">80%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Keras</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">OpenCV</span>
+                    <data value="80">80%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Neural Networks</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Natural Language Processing</span>
+                    <data value="80">80%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Artificial Intelligence</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Deep Learning</span>
+                    <data value="80">80%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Pandas</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Numpy</span>
+                    <data value="80">80%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Matplotlib</span>
+                    <data value="85">85%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 85%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Scikit-Learn</span>
+                    <data value="80">80%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 80%;"></div>
+                  </div>
+                </li>
+                <!-- Add more subskills as needed -->
+              </ul>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Databases</h5>
+                <data value="50">50%</data>
+              </div>
+              <ul class="subskills-list">
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">MySQL</span>
+                    <data value="60">60%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 60%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">PostgreSQL</span>
+                    <data value="55">55%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 55%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">SQLite</span>
+                    <data value="60">60%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 60%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">MongoDB</span>
+                    <data value="55">55%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 55%;"></div>
+                  </div>
+                </li>
+                <!-- Add more subskills as needed -->
+              </ul>
+            </li>
+        
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Others</h5>
+                <data value="50">50%</data>
+              </div>
+              <ul class="subskills-list">
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Git</span>
+                    <data value="70">70%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 70%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Docker</span>
+                    <data value="65">65%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 65%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Kubernetes</span>
+                    <data value="65">65%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 65%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">AWS</span>
+                    <data value="65">65%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 65%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">JIRA</span>
+                    <data value="65">65%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 65%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">Linux</span>
+                    <data value="65">65%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 65%;"></div>
+                  </div>
+                </li>
+                <li class="subskills-item">
+                  <div class="subskill-wrapper">
+                    <span class="timeline-text">POSTMAN</span>
+                    <data value="65">65%</data>
+                  </div>
+                  <div class="skill-progress-bg small">
+                    <div class="skill-progress-fill" style="width: 65%;"></div>
+                  </div>
+                </li>
+                <!-- Add more subskills as needed -->
+              </ul>
+            </li>
+        
+          </ul>
+        </section>
+
+
+        
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <!-- <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li> -->
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3324.8780536182355!2d-111.94000558459447!3d33.425510980782004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b12e7280c9c71%3A0xadd9818b0da57f0d!2sTempe%2C%20AZ%2C%20USA!5e0!3m2!1sen!2sbd!4v1659529713963!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+            <textarea name="subject" class="form-input" placeholder="Your Subject" required data-form-input></textarea>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
